@@ -1,0 +1,2 @@
+#!/bin/bash
+RUSTDOCFLAGS="--html-in-header $(pwd)/doc/before.html --html-after-content $(pwd)/doc/after.html" cargo doc --open

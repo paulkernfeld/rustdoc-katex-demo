@@ -1,0 +1,7 @@
+[package]
+name = "rustdoc-katex-demo"
+version = "0.1.0"
+authors = ["Paul Kernfeld <paulkernfeld@gmail.com>"]
+
+[dependencies]
+bitflags = "1.0"
