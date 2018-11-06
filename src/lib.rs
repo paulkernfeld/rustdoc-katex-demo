@@ -72,4 +72,3 @@
 //!
 //! I am greatly indebted to [rust-num PR #226](https://github.com/rust-num/num/pull/226) by hauleth
 //! for providing a template for this technique.
-fn main() {}
