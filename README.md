@@ -3,6 +3,8 @@
 This project demonstrates an approach to including KaTeX in Rust docs. It tries to balance
 readable source code, attractive rendered output, and ease of use.
 
+Docs with KaTeX can be generated locally and [on docs.rs](https://docs.rs/rustdoc-katex-demo).
+
 Setup
 =====
 
@@ -11,7 +13,7 @@ root of your project.
 
 ### Rendering Locally
 
-This project can be rendered locally with the following commands. Dependencies are
+This project can be documented locally with the following commands. Dependencies are
 documented separately because you probably don't want your dependencies' docs to use KaTeX, plus
 it won't build correctly.
 
@@ -49,7 +51,7 @@ Somehow the section on how to *not* write KaTeX is longer and more complex than 
 write KaTeX! I think it's worth it, because being able to use a single dollar sign for inline
 math expressions makes the source code a lot more readable.
 
-If you try to write two dollar signs in one element, your text will $look like this!$
+If you try to write two dollar signs in one paragraph, your text will $look like this!$
 
 Dollar signs inside of code blocks are safe: `$\KaTeX$`.
 
@@ -70,7 +72,7 @@ order of the delimiters is important, so you may with to consult the KaTeX auto-
 This project currently depends on KaTeX's official CDN, jsDelivr. In the future, I would like to
 create a way to bundle the JS and CSS resources into the project.
 
-I am greatly indebted to [rust-num PR #226](https://github.com/rust-num/num/pull/226) on GitHub
+I am greatly indebted to [rust-num PR #226](https://github.com/rust-num/num/pull/226) by hauleth
 for providing a template for this technique.
 
 License: MIT/Apache-2.0
