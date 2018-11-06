@@ -1,3 +1,0 @@
-#!/bin/bash
-cargo doc
-RUSTDOCFLAGS="--html-in-header header.html" cargo doc --no-deps
