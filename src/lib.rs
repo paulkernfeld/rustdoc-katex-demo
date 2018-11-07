@@ -70,5 +70,17 @@
 //! This project currently depends on KaTeX's official CDN, jsDelivr. In the future, I would like to
 //! create a way to bundle the JS and CSS resources into the project.
 //!
-//! I am greatly indebted to [rust-num PR #226](https://github.com/rust-num/num/pull/226) by hauleth
-//! for providing a template for this technique.
+//! Resources
+//! =========
+//!
+//! - [rust-num PR #226](https://github.com/rust-num/num/pull/226): a nice example of KaTeX
+//!   injection with `--html-in-header`
+//! - [pwnies on docs.rs](https://docs.rs/pwnies): a Rust crate that injects JS and CSS into
+//!   rendered docs.rs documentation using the `--html-in-header` argument.
+//! - [GitHub issue for pwnies](https://github.com/rust-lang-nursery/docs.rs/issues/167)
+//! - [xss-probe on docs.rs](https://docs.rs/xss-probe): a Rust crate that injects JS and CSS into
+//!   rendered docs.rs documentation by using `build.rs` to rewrite some files on the docs.rs build
+//!   machine.
+//! - The curve25519-dalek crate includes
+//!   [lovely rendered KaTeX](https://doc-internal.dalek.rs/curve25519_dalek/curve_models/index.html)
+//!   on their self-hosted docs site.
