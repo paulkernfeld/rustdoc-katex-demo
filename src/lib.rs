@@ -38,8 +38,8 @@
 //!
 //! $$
 //! f(x) = \int_{-\infty}^\infty
-//!   \hat f(\xi)\,e^{2 \pi i \xi x}
-//!   \,d\xi
+//!   \hat f(\xi)e^{2 \pi i \xi x}
+//!   d\xi
 //! $$
 //!
 //! How to Not Write KaTeX
