@@ -95,3 +95,5 @@
 //!   * This won't work (as-is) for the sub-crates when generated independently. That's important
 //!     for docs.rs where everything is independent.
 //!   * Even from the main crate, it won't work if generated as a dependency in someone else's docs.
+//! - [katex-doc](https://docs.rs/katex-doc), a crate that uses a similar technique but with a few
+//!   differences in implementation.
