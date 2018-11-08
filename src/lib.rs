@@ -65,7 +65,7 @@
 //! ====
 //!
 //! If you want to use your own set of delimiters, you can change that in `katex-header.html`. The
-//! order of the delimiters is important, so you may with to consult the KaTeX auto-render
+//! order of the delimiters is important, so you may wish to consult the KaTeX auto-render
 //! [docs](https://katex.org/docs/autorender.html) and
 //! [source code](https://github.com/Khan/KaTeX/blob/master/contrib/auto-render/auto-render.js).
 //!
