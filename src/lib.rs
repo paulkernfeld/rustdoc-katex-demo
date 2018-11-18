@@ -42,6 +42,21 @@
 //!   d\xi
 //! $$
 //!
+//! If your math expression has lots of Markdown special characters like _ or *, it may not render
+//! correctly because those characters will be processed by Markdown:
+//!
+//! $$
+//! \sum^{T-1}_{t=1}x_{ij}
+//! $$
+//!
+//! To fix this, you can escape each special character by preceding it with a backslash:
+//!
+//! $$
+//! \sum^{T-1}\_{t=1}x\_{ij}
+//! $$
+//!
+//!
+//!
 //! How to Not Write KaTeX
 //! ======================
 //!
